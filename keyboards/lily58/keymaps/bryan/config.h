@@ -21,9 +21,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #pragma once
 
 /* Select hand configuration */
-
-//#define MASTER_LEFT
 #define MASTER_RIGHT
+//#define MASTER_LEFT
 // #define EE_HANDS
 
 // Underglow
@@ -33,9 +32,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_SLEEP
 */
 #ifdef PS2_MOUSE_ENABLE
-	
-	#define PS2_MOUSE_USE_REMOTE_MODE
-	#define PS2_MOUSE_ROTATE 180 // compensate for south-facing device orientation
+	#define PS2_MOUSE_USE_REMOTE_MODE		// To fix mouse jerking and randomly right clicking with the default stream mode
+	#define PS2_MOUSE_ROTATE 180 			// compensate for south-facing device orientation
   
 	#define PS2_MOUSE_BTN_LEFT      0
 	#define PS2_MOUSE_BTN_RIGHT     1
@@ -45,7 +43,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 	
 	#define PS2_MOUSE_SCROLL_MASK 0xFF
   
-	#define PS2_MOUSE_X_MULTIPLIER 5
+	#define PS2_MOUSE_X_MULTIPLIER 8
 	#define PS2_MOUSE_Y_MULTIPLIER PS2_MOUSE_X_MULTIPLIER
   
 	#define PS2_MOUSE_USE_2_1_SCALING

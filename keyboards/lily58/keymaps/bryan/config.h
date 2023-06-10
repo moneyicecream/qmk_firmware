@@ -43,7 +43,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 	
 	#define PS2_MOUSE_SCROLL_MASK 0xFF
   
-	#define PS2_MOUSE_X_MULTIPLIER 8
+	#define PS2_MOUSE_X_MULTIPLIER 12
 	#define PS2_MOUSE_Y_MULTIPLIER PS2_MOUSE_X_MULTIPLIER
   
 	#define PS2_MOUSE_USE_2_1_SCALING

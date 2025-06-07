@@ -41,7 +41,7 @@
         "matrix": [3, 2]
     },
     "layouts": {
-        "unibody_split_3x5_3": {
+        "LAYOUT_unibody_split_3x5_3": {
             "layout": [
                 {"matrix": [0, 0], "x": 0, "y": 0},
                 {"matrix": [0, 1], "x": 1, "y": 0},

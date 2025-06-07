@@ -1,8 +1,8 @@
 {
-    "keyboard_name": "Bryan - Bikini36",
-    "manufacturer": "bryan",
+    "keyboard_name": "bikini36",
+    "manufacturer": "Bryan Phan",
     "url": "https://github.com/moneyicecream",
-    "maintainer": "bryan",
+    "maintainer": "bryanphan",
     "usb": {
         "vid": "0x4250",
         "pid": "0x0088",
